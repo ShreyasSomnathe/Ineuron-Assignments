@@ -1,0 +1,70 @@
+1.  In the below elements which of them are values or an expression? 
+* 'hello' -87.8 - / + 6
+Solution:    Values are 'hello', -87.8, 6
+Operators are *, +, -, /
+Value is generally a thing that assigned to a variable.
+Operators are used to perform operations on the values or some operands.
+
+2.   What is the difference between string and variable? 
+Solution: String is a data type which contain sequence of characters. String are always used with single or double quatation marks. 
+Whereas Variable is a memory allocation used to store data. It is used to store any kind of information including string.
+
+3. Describe three different data types.
+Solution:
+Data form or Data Type are classification of data items. It represent the value which tells what kind of operations can be performed in those data items.
+Standard Build-in Data type in python:
+
+1. Numeric type
+2.Sequence
+3.Boolean
+4.Set
+5. Dictionary
+
+1. Numeric type- As the name defines, it contain numerical values such as integers, float numbers i.e. decimal number and complex numbers represented by
+int class- containing all the negative and positive numbers,
+float- containing floating or decimal numbers 
+complex class- containing complex number, both real and imaginary parts i.e. 2+ 6j
+
+2.Sequence type- Sequence is ordered collections of similar or different types of values. Type of sequence are string, tuple, list etc
+String- A string is a collection of one or more characters put in a single quote, double-quote or triple quote.
+List : List are just like arrays, declared in othet languages which is a ordered collection of data. It is very flexible as the items in a list do not need to be of the same type. 
+Tuple : Tuple is also an ordered collection of Python objects. The only difference between tuple and list is that tuple are immutable i.e. tuples cannnot be modified after it is created. It is represented by tuple class.
+
+3.Boolean: this data type contain two build in values which are True and False. True and False with capital ‘T’ and ‘F’ are valid booleans otherwise python will throw an error. Bollean operation is performed usinh Bool.
+
+4.Set- Set is an unordered collection of data type that is iterable, mutable and has no duplicate elements. The order of elements in a set is undefined though it may consist of various elements.The major advantage of using a set, as opposed to a list, is that it has a highly optimized method for checking whether a specific element is contained in the set.Sets can be created by using the built-in set() function with an iterable object or a sequence by placing the sequence inside curly braces, separated by ‘comma’.
+
+4. What is an expression made up of? What do all expressions do?
+solution: Expressions are representations of value. They are different from statement in the fact that statements do something while expressions are representation of value. For example any string is also an expressions since it represents the value of the string as well. All expression evaluates to a single value.
+
+5. This assignment statements, like spam = 10. What is the difference between an
+expression and a statement?
+solution: In programming, "expression" is the combination of values, operations and fuctions to give a value at last, whereas "statement" is a unit that gives nothing in return.
+
+
+6. After running the following code, what does the variable bacon contain?
+bacon = 22
+bacon + 1
+solution: Bacon will contain value 22 itself, dispite of aanswer being 23.
+
+
+
+7. What should the values of the following two terms be?
+'spam' + 'spamspam'
+'spam' * 3
+Solution: Both of them will have same output of 'spamspamspam'.
+
+8. Why is eggs a valid variable name while 100 is invalid?
+Solution: Variable name can never begin with a number. It can be some alphabet, _ but not a number.
+
+
+
+9. What three functions can be used to get the integer, floating-point number, or string
+version of a value?
+Solution: Functions are int(), float() and str() for integer, floating-point number and string respectively.
+
+
+
+10. Why does this expression cause an error? How can you fix it?
+'I have eaten ' + 99 +'burritos.'
+Solution: this expression will cause error because 99 is an integer value and hence cannot be concenate with statement. the correct way is 'I have eaten ' + '99' +'burritos.' i.e. making 99 a string.
